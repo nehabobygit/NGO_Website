@@ -109,7 +109,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    /*background-color: var(--themeRed);*/
+    
     background-color:  red;
 
 }
@@ -431,7 +431,7 @@ header nav ul li a:hover {
 }
 /*education section end*/
 
-/*gallert section start*/
+/*gallery section start*/
 
 .gallery {
   height: 1000px;
@@ -575,7 +575,7 @@ header nav ul li a:hover {
 footer {
     background-color: #181818;
     color: #7f7f7f;
-    padding: 80px 20px; 
+    padding: 0px 20px 40px; 
     font-size: 14px;
     height: auto; 
 }
@@ -583,9 +583,13 @@ footer {
 footer .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
-    grid-gap: 30px; 
+    grid-gap: 100px; 
     max-width: 1200px; 
     margin: 0 auto;
+}
+
+footer .contain{
+    padding-top: 40px;
 }
 
 footer .title {
@@ -646,7 +650,7 @@ footer .newsLetterContainer input:focus {
     border-color: #ff4747; 
 }
 
-/*footer section end here*/
+/footer section end here/
 
 /* responsive code start from here*/
 
